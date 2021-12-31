@@ -7,7 +7,7 @@ public final class TheGeoApiContext {
 	private GeoApiContext theContext;
 	
 	private TheGeoApiContext() {
-		theContext = new GeoApiContext.Builder().apiKey("google-api-key").build();
+		theContext = new GeoApiContext.Builder().apiKey("<google-api-key>").build();
 	}
 	
 	private static final class GeoApiContextHelper {
